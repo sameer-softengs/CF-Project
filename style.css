@@ -47,14 +47,13 @@ nav{
 }
 
 .nav_items{
-    display: contents;
+    display: flex;
     gap: 20;
     margin-right: 10px;
     padding: 10px;
 }
 .nav_items button{
     border: none;
-    outline: none;
     background-color: transparent;
     font-size: 17px;
     font-weight: bold;
