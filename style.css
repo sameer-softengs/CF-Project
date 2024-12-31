@@ -37,11 +37,10 @@ button:hover{
 /*                                         NAVIGATION-CONTAINER                                 */
 
 nav{
-    background-color: orange;
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
     top: 0;
     margin-bottom: 32px;
-    background: white;
+    background: orange;
     z-index: 50;
     background-attachment: fixed; 
     align-items: center;  
