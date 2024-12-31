@@ -1,43 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     line-height: 1.4;
     font-weight: 300;
     font-family: "roboto", sans-serif;   
-    display:inline; 
+    display: inline; 
     background-color: black;
     color: lightgreen;
 }
 
-button{
+button {
     width: 150px;
     margin-top: 13px;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     transition: 0.1s ease-in-out;
-    background-color:hsl(115, 84%, 36%) ;
-    text-decoration: none;
+    background-color: hsl(115, 84%, 36%);
 }
 
-button:hover{
+button:hover {
     color: rgb(134, 134, 134);
     transition: 0.2s ease-in-out;
     opacity: 0.8;
-    background-color: green ;
+    background-color: green;
 }
 
-
-
-/*                                         NAVIGATION-CONTAINER                                 */
-
-nav{
+/* NAVIGATION-CONTAINER */
+nav {
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
     top: 0;
     margin-bottom: 32px;
@@ -47,31 +43,36 @@ nav{
     align-items: center;  
 }
 
-.nav_items{
+.nav_items {
     display: flex;
-    gap: 20;
+    gap: 20px; /* Adjusted for spacing between buttons */
     margin-right: 10px;
     padding: 10px;
 }
-.nav_items button{
+
+.nav_items button {
     border: none;
     background-color: transparent;
     font-size: 17px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif; 
-    text-decoration: none;
 }
 
-.navigation{
+.nav_items button a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Makes link color the same as the button */
+    display: block; /* Makes the link fill the button area */
+}
+
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
-
 }
 
 .bar_icon{
