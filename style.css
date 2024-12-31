@@ -24,6 +24,11 @@ button {
     transition: 0.1s ease-in-out;
     background-color: hsl(115, 84%, 36%);
 }
+button a{
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Makes link color the same as the button */
+    display: block; /* Makes the link fill the button area */
+}
 
 button:hover {
     color: rgb(134, 134, 134);
